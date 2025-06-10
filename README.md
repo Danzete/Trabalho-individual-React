@@ -1,12 +1,52 @@
-# React + Vite
+Este projeto é um trabalho individual desenvolvido em **React** utilizando o **Vite** como bundler e suporte a rotas com **React Router DOM**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📦 Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Como rodar o projeto
 
-## Expanding the ESLint configuration
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Danzete/Trabalho-individual-React.git
+   cd Trabalho-individual-React
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse no navegador:**
+   ```
+   http://localhost:5173
+   ```
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+ ├─ assets/           # Imagens e arquivos estáticos
+ ├─ pages/            # Páginas principais do app
+ │   ├─ Home.jsx
+ │   ├─ TrocaTema.jsx
+ │   ├─ Mensagem.jsx
+ │   └─ ListaTarefa.jsx
+ ├─ routes.jsx        # Definição das rotas
+ ├─ App.jsx           # Componente principal
+ └─ main.jsx          # Ponto de entrada da aplicação
+```
+
+## ✨ Funcionalidades
+
+- Navegação entre páginas usando React Router
+- Troca de tema (claro/escuro)
+- Lista de tarefas
+- Mensagem de boas-vindas
