@@ -10,26 +10,9 @@ body {
   margin: 0 auto;
 }
 
-nav a {
-  margin-right: 10px;
-  text-decoration: none;
-  color: #e940b6;
-  font-weight: bold;
-}
 
 h3 {
   text-align: center;
-}
-
-li {
-  padding: 0;
-  font-size: 18px;
-  margin: auto;
-  text-align: center;
-  list-style: none;
-  margin-top: 10px; 
-  margin-bottom: 10px;
-  margin-right: 40px;
 }
 
 .home {
@@ -91,13 +74,13 @@ li {
   margin-right: auto;
 }
 
-/* Tema claro */
+
 .light {
   background: #fff;
   color: #8a2387;
 }
 
-/* Tema escuro */
+
 .dark {
   background: #222;
   color: #e94057;
@@ -122,7 +105,7 @@ li {
   border: 2px solid #8a2387;
 }
 
-/* Welcome message styles */
+
 .welcome-container {
   padding: 20px;
   text-align: center;
@@ -149,7 +132,14 @@ input {
   box-sizing: border-box;
   margin-top: 10px;
 }
-
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;  
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
 .todo-container button {
   padding: 8px 16px;
   display: block;
