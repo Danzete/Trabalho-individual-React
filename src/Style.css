@@ -13,13 +13,15 @@ body {
 nav a {
   margin-right: 10px;
   text-decoration: none;
-  color: #d0021b;
+  color: #e940b6;
   font-weight: bold;
 }
+
 h3 {
   text-align: center;
 }
-li{
+
+li {
   padding: 0;
   font-size: 18px;
   margin: auto;
@@ -27,10 +29,9 @@ li{
   list-style: none;
   margin-top: 10px; 
   margin-bottom: 10px;
-  text-align: center;
-margin-right: 40px;
-
+  margin-right: 40px;
 }
+
 .home {
   text-align: center;
   padding: 20px;
@@ -45,7 +46,7 @@ margin-right: 40px;
 
 .link-button {
   padding: 10px 15px;
-  background-color: #d0021b;
+  background: linear-gradient(90deg, #e94057, #8a2387);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -53,7 +54,7 @@ margin-right: 40px;
 }
 
 .link-button:hover {
-  background-color: #81000f;
+  background: #a00f57;
 }
 
 .question {
@@ -71,28 +72,40 @@ margin-right: 40px;
 }
 
 .tema {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.tema img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  display: block;
+  transition: filter 0.5s ease;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Tema claro */
 .light {
   background: #fff;
-  color: #d0021b;
+  color: #8a2387;
 }
 
 /* Tema escuro */
 .dark {
   background: #222;
-  color: #d0021b;
+  color: #e94057;
 }
 
 /* Botão */
 .tema button {
-  background: #d0021b;
+  background: linear-gradient(90deg, #e94057, #8a2387);
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -105,8 +118,8 @@ margin-right: 40px;
 
 .tema button.light {
   background: #fff;
-  color: #d0021b;
-  border: 2px solid #d0021b;
+  color: #8a2387;
+  border: 2px solid #8a2387;
 }
 
 /* Welcome message styles */
@@ -117,12 +130,13 @@ margin-right: 40px;
 
 .welcome-container button {
   padding: 8px 16px;
-  background-color: #d0021b;
+  background: linear-gradient(90deg, #e94057, #8a2387);
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
+
 input {
   padding: 8px;
   border: 1px solid #ddd;
@@ -132,20 +146,18 @@ input {
   transition: border-color 0.3s;
   display: block;
   margin: 0 auto;
-
   box-sizing: border-box;
   margin-top: 10px;
 }
+
 .todo-container button {
   padding: 8px 16px;
   display: block;
   margin: 10px auto;
   font-size: 16px;
-  background-color: #d0021b;
+  background: linear-gradient(90deg, #e94057, #8a2387);
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
 }
-
