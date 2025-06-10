@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home.js';
+import Tema from './pages/TrocaTema.js';
+import Mensagem from './pages/Mensagem.js';
+import ListaTarefa from './pages/ListaTarefa.js';
+import logo from './assets/Logo.jpg';
+import './Style.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <nav >
+          <Link to="/">
+            <img
+              src={logo}
+              alt="Descrição da imagem"
+              style={{ cursor: 'pointer', width: '100px', height: 'auto', display: 'block', margin: 'auto' }}
+            />
+           <span style={{display: 'flex', margin: ' auto', justifyContent: 'center', alignContent: 'center' }}>←</span>
+          </Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tema" element={<Tema />} />
+          <Route path="/mensagem" element={<Mensagem />} />
+          <Route path="/lista" element={<ListaTarefa />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

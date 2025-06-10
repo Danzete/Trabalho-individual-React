@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #d0021b;
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+}
+li{
+  padding: 0;
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  text-align: center;
+margin-right: 40px;
+
+}
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.link-button {
+  padding: 10px 15px;
+  background-color: #d0021b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.link-button:hover {
+  background-color: #81000f;
+}
+
+.question {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Theme styles */
+.theme-container {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.tema {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tema claro */
+.light {
+  background: #fff;
+  color: #d0021b;
+}
+
+/* Tema escuro */
+.dark {
+  background: #222;
+  color: #d0021b;
+}
+
+/* Botão */
+.tema button {
+  background: #d0021b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.tema button.light {
+  background: #fff;
+  color: #d0021b;
+  border: 2px solid #d0021b;
+}
+
+/* Welcome message styles */
+.welcome-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.welcome-container button {
+  padding: 8px 16px;
+  background-color: #d0021b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 40%;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  display: block;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.todo-container button {
+  padding: 8px 16px;
+  display: block;
+  margin: 10px auto;
+  font-size: 16px;
+  background-color: #d0021b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
